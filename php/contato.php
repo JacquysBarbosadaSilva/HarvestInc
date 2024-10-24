@@ -61,5 +61,46 @@
                 </nav>
 
             </header>
+
+            <main class="contatoMain">
+                <h1 id="h1-contatos">Contatos</h1>
+                <div class="grid-container">
+                    <div class="atendenteDuvidas">
+                        <img class="imagem-atendente" src="../img/miguel_sales.png" alt="">
+                        <div class="informacao">
+                            <h3>Miguel Sales</h3>
+                            <h4>Atendente de Dúvidas</h4>
+                            <p>(12) 99125-4471</p>
+                        </div> 
+                    </div>
+            
+                    <div class="atendenteDuvidas">
+                        <img class="imagem-atendente" src="../img/jacquys_barbosa.png" alt="">
+                        <div class="informacao">
+                            <h3>Jacquys Barbosa</h3>
+                            <h4>Atendente de Dúvidas</h4>
+                            <p>(12) 99643-9932</p>
+                        </div> 
+                    </div>
+            
+                    <div class="atendenteDuvidas">
+                        <img class="imagem-atendente" src="../img/victor_koba.png" alt="">
+                        <div class="informacao">
+                            <h3>Victor Koba</h3>
+                            <h4>Atendente de Dúvidas</h4>
+                            <p>(12) 99865-0942</p>
+                        </div> 
+                    </div>
+            
+                    <div class="atendenteDuvidas">
+                        <img class="imagem-atendente" src="../img/nicole_cafalloni.png" alt="">
+                        <div class="informacao">
+                            <h3>Nicole Cafalloni</h3>
+                            <h4>Atendente de Dúvidas</h4>
+                            <p>(12) 99132-7739</p>
+                        </div> 
+                    </div>
+                </div>
+            </main>
     </body>
 </html>
