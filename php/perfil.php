@@ -2,20 +2,20 @@
     session_start();
     include 'conexao.php';
 
+    $idUsuario = $_SESSION['id_usuario'];
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $novoNome = $_POST['username'];
         $novaSenha = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
-        // Validate input (add more checks as needed)
         if (empty($novoNome) || empty($novaSenha)) {
             echo "Por favor, preencha todos os campos.";
             exit;
         }
 
-        // Prepare and execute the SQL query
-        $sql = "UPDATE usuarios SET nome_user = ?, password_user = ?";
+        $sql = "UPDATE usuarios SET nome_user = ?, password_user = ? WHERE id = $idUsuario";
         $stmt = $conexao->prepare($sql);
-        $stmt->bind_param("ss", $novoNome, $novaSenha); // Assuming you have a session variable for the user's ID
+        $stmt->bind_param("ss", $novoNome, $novaSenha);
 
         if ($stmt->execute()) {
             echo "<script>alert('Usuario atualizado com sucesso')</script>";

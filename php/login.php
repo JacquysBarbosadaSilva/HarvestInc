@@ -20,6 +20,7 @@
 
             if (password_verify($password, $user['password_user'])) {
                 $_SESSION['usuario'] = $user['nome_user'];  
+                $_SESSION['id_usuario'] = $user['id'];  
                 $_SESSION['tipo'] = $user['type'];
 
                 if ($user['type'] == 'Professor') {

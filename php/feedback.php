@@ -37,8 +37,8 @@
                             <ul>
                                 <li><a href="home_page_logado.php">Home</a></li>
                                 <li><a href="planos.php">Planos</a></li>
-                                <li><a href="#">Contato</a></li>
-                                <li><a href="feedback.php">Feedback</a></li>
+                                <li><a href="contato.php">Contato</a></li>
+                                <li><a href="#">Feedback</a></li>
                             </ul> 
                         </div>
                         <div class="alinhamento-login-finalizado">

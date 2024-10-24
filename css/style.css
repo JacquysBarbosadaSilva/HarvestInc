@@ -178,13 +178,15 @@ a{
     padding: 20px;
     background: linear-gradient(#F2B441, #8C6826);
     margin-top: -200px;
+    display: flex;
     border: none;
-    width: 150px;
+    justify-content: center;
+    width: 125px;
     font-size: 16px;
     color: white;
     border-radius: 50px;
     font-family: "Kavivanar", cursive;
-    transition: transform 0.2s ease-in-out;
+    transition:transform 0.2s ease-in-out;
 }
 
 .button_saiba_mais_home_page:hover{

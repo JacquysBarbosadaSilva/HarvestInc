@@ -55,7 +55,8 @@
                     </div>
 
                     <div class="button_centralizar">
-                        <button class="button_saiba_mais_home_page">Saiba Mais</button>
+                        <a href="php/cadastrar.php" class="button_saiba_mais_home_page">Saiba Mais</a>
+                        
                     </div>
                 </div>
                 
