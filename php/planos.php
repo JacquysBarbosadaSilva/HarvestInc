@@ -61,5 +61,34 @@
                 </nav>
 
             </header>
+
+            <main id="main-plano">
+        <h1 id="h1-plano">PLANOS HARVEST</h1>
+
+    <div class="card-inicial">
+
+            <div class="card-sobreposicao">
+                <div>
+                    <h1 class="infor-inicio">Elabore um plano que atenda às necessidades específicas do seu negócio</h1>
+                    <p id="text-sub-titulo">Veja o que a Harvest proporciona</p>
+
+                    <div class="card-informacao">
+                        <img class="icon-planos" src="../img/icon-produtividade.png" alt=""> <p id="text-infor">Nossa empresa oferece soluções que elevam a produtividade por meio de tecnologia avançada e eficiente. 
+                        Com nossas ferramentas, você maximiza resultados, alcançando um desempenho superior.</p>
+                    </div>
+        
+                    <div class="card-informacao">
+                        <img class="icon-planos" src="../img/icon-lucros.png" alt=""> <p id="text-infor">Aumenta seus lucros proporcionando praticidade e resultados concretos. 
+                        Nossas soluções otimizam processos e garantem um retorno financeiro superior.</p>
+                    </div>
+                </div>
+                <div></div>
+                   <div class="sombra-img"></div>
+                <img id="img-feira" src="../img/img-feira.png" alt="">
+            </div>
+
+        </div>
+
+    </main>
     </body>
 </html>

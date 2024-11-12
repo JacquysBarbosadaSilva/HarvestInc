@@ -195,7 +195,59 @@ a{
     transition: 3ms;
 }
 
+.amarelo{
+    background-color: #F2B441;
+    width: 70px;
+    height: 300px;
+    margin-right: -35px;
+}
 
+.laranja{
+    background-color: #D98B48;
+    width: 70px;
+    margin-right: -35px;
+    height: 270px;
+}
+
+.marrom{
+    background-color: #8C5B3F;
+    width: 70px;
+    height: 240px;
+}
+
+.retangulos{
+    max-height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    height: 100vh;
+}
+
+.quem-somos{
+    
+}
+
+.titulo-quem-somos{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lalezar';
+    font-size: 48px;
+}
+
+.container-quem-somos{
+    display: flex;
+    justify-content: center;
+}
+
+.descricao-quem-somos{
+    font-family: 'Inria Serif';
+    font-size: 24px;
+    text-align: justify;
+    line-height: 40px;
+    width: 600px;
+}
 /* Cadastrar */
 
 .body-cadastrar-login {
@@ -427,17 +479,29 @@ a{
 
 .fundo-form {
     background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 20px;
+    justify-content: center;
     margin-top: 100px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 40%;
 }
 
 .imagem-icone{
     width: 100px;
-    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.imagem-icone:hover{
+    background-color: #333;
+    border-radius: 500px;
+    cursor: pointer;
+    background-image: url(../img/lapis.png);
+    opacity: 0.7;
 }
 
 .alinhamento-form{
@@ -451,12 +515,13 @@ a{
     width: 80%;
 }
 
-.button-alterar{
+.button-alterar-deletar{
+    padding: 10px 20px; /* Ajuste conforme necessário */
+    width: auto;
     display: flex;
     justify-content: center;
-    width: 40%;
     justify-content: center;
-    background-color: #F2B441;
+    background-color: #1C826A;
     border: none;
     font-size: larger;
     border-radius: 5px;
@@ -469,13 +534,14 @@ a{
 }
 
 .button-logout{
+    padding: 10px 20px; /* Ajuste conforme necessário */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: auto;
     display: flex;
     justify-content: center;
-    width: 40%;
     justify-content: center;
     background-color: red;
     border: none;
-    text-decoration: none;
     font-size: larger;
     border-radius: 5px;
     color: white;
@@ -489,6 +555,7 @@ a{
 .button-logout:hover{
     background-color: white;
     color: red;
+    font-size: large;
     border: 2px solid red;
 }
 
@@ -519,8 +586,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border: 1px solid ;
     border-radius: 10px;
 }
 
@@ -628,4 +693,69 @@ a{
     font-size: 14px;
     margin-top: 15px;
     color: #888;
+}
+
+/* Planos */
+#main-plano{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}
+#h1-plano{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card-inicial{
+    background-color: #f2b749;
+    text-align: justify;
+    width: 70%;
+    border-radius: 20px;
+
+}
+
+.card-sobreposicao{
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+}
+
+.card-informacao{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.icon-planos{
+    width: 30px;
+    display: flex;
+    margin: 10px;
+}
+
+.infor-inicio{
+    margin: 20px;
+    padding-top: 20px;
+}
+
+#text-sub-titulo{
+    margin: 20px;
+    font-size: 18px;
+}
+
+#img-feira{
+    height: 50%;
+    width: 550px;
+    opacity: 0.5;
+}
+
+#text-infor{
+    font-size: 15px;
+    text-align: justify;
 }

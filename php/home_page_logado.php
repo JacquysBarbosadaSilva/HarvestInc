@@ -20,7 +20,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kavivanar&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kavivanar&family=Lalezar&display=swap" rel="stylesheet">  
+
         <script src="../javascript/main.js"></script>
     </head>
     
@@ -75,6 +76,25 @@
                     </div>
                 </div>
                 
+            </section>
+
+            <section>
+                <div class="container-cards">
+                    <div class="retangulos">
+                        <div class="amarelo"></div>
+                        <div class="laranja"></div>
+                        <div class="marrom"></div>
+                    </div>
+                </div>
+
+                <div class="quem-somos">
+                    <h1 class="titulo-quem-somos">Quem Somos?</h1>
+                    <div class="container-quem-somos">
+                        <p class="descricao-quem-somos">A Harvest Inc. é uma empresa de agropecuária focada na excelência, sustentabilidade e inovação. Produzimos alimentos de alta qualidade utilizando tecnologias avançadas e práticas agrícolas responsáveis. Investimos na capacitação de nossos colaboradores e promovemos a segurança em todas as operações. Nosso compromisso é otimizar a produção e preservar o meio ambiente. Na Harvest Inc., trabalhamos para um futuro agrícola produtivo e sustentável.</p>
+                        <img src="" alt="">
+                    </div>
+                    
+                </div>
             </section>
         </main>
     </body>
