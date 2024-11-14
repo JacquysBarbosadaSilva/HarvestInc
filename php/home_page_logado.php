@@ -57,7 +57,7 @@
                                 </div>";
                             }
                         ?>  
-                    <a href="perfil.php"><img class="perfil-icone" src="../img/icone-perfil.png" alt=""></a>
+                    <a href="perfil.php"><img class="perfil-icone" src="https://i.ibb.co/Jr79P3k/icone-perfil.png" alt=""></a>
                 </div>
                 </div>
             </nav>
@@ -65,7 +65,7 @@
         </header>
 
         <main>
-            <section class="background_bem_vindo section-separacao">
+            <section class="background_bem_vindo">
                 <div class="transparet_background">
                     <div class="bem_vindo">
                         <h1 class="titulo-bem-vindo line-below">Bem Vindo</h1>
@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="container-conteudos-pi">
-                    <div class="container-quem-somos">
+                    <div id="container-quem-somos">
                         <h2 class="titulo-quem-somos">Quem Somos?</h2>
                         <p class="descricao-conteudo">A Harvest Inc. é uma empresa de agropecuária focada na excelência, sustentabilidade e inovação. Nosso compromisso é otimizar a produção e preservar o meio ambiente.</p>
                         <p class="descricao-conteudo">Produzimos alimentos de alta qualidade utilizando tecnologias avançadas e práticas agrícolas responsáveis.</p>
@@ -96,22 +96,23 @@
                         <p class="descricao-conteudo">Na Harvest Inc., trabalhamos para um futuro agrícola produtivo e sustentável.</p>
                     </div>
                     <div>
-                        <img class="tamanho-img" src="../img/harvest_inc.png" alt="">
+                        <img class="tamanho-img" src="https://i.ibb.co/NxCX5Q3/img-horta.png" alt="">
                     </div>
                 </div>
 
             </section>
 
-            
+
             
             <section class="section-separacao">
                 <div class="container-conteudos-pi">
                     <div>
-                        <img class="tamanho-img" src="../img/harvest_inc.png" alt="">
+                        <img class="tamanho-img" src="https://i.ibb.co/1ztKJj1/broto.png" alt="">
                     </div>
-                    <div class="container-quem-somos">
-                    
+                    <div id="container-quem-somos">
                         <h2 class="titulo-quem-somos">Princípios</h2>
+                        
+                        <!-- Conteúdo que será exibido ao clicar em um card -->
                         <p class="descricao-conteudo">Cultivar a terra é uma missão que transforma vidas, e essa é a essência da Harvest Inc. Estamos inseridos em uma vasta cadeia de produção que vai muito além dos campos. Nosso trabalho envolve milhares de pessoas em todo o mundo, abrangendo áreas como tecnologia, pesquisa, mercado, comércio, transporte e indústria.</p>
                         
                         <div class="cards-principios">
@@ -121,8 +122,8 @@
                                 <div class="alinhamento-icones">
                                     <img class="icone-card" src="https://i.ibb.co/VWVytC2/despesas.png" alt="">
                                 </div>
-
                                 <p class="descricao-conteudo-card">Investir em novas práticas e tecnologias é fundamental para nos mantermos na vanguarda do mercado global. Nosso compromisso é acompanhar os agricultores em todas as etapas do seu trabalho, oferecendo suporte contínuo e soluções inovadoras. </p>
+
                             </div>
                             
                             <div class="card-principios-conteudo">
@@ -130,20 +131,16 @@
                                 <div class="alinhamento-icones">
                                     <img class="icone-card" src="https://i.ibb.co/h2ZkjNQ/acordo.png" alt="">
                                 </div>
-                                
-                                
                                 <p class="descricao-conteudo-card">Na Harvest Inc., acreditamos que o sucesso dos nossos parceiros é o nosso sucesso, e trabalhamos incansavelmente para garantir que eles tenham as melhores ferramentas e conhecimentos para prosperar.</p>
                             </div>
-                            
                         </div>
-                        
                     </div>
-                    
                 </div>
-                
-
-                
             </section>
+
+
         </main>
+
+        <script src="../javascript/main.js"></script>
     </body>
 </html>

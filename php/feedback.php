@@ -31,7 +31,7 @@
                         <div class="navegacao-paginas">
                             <div class="logo">
                                 <a href="login.php">
-                                    <img class="logo-nav-bar" src="../img/harvest_inc.png" alt="Logo">
+                                    <img class="logo-nav-bar" src="https://i.ibb.co/Jr79P3k/icone-perfil.png" alt="Logo">
                                 </a>
                             </div>
                             <ul>

@@ -79,7 +79,7 @@
                             </div>";
                         }
                     ?>
-                    <a href="perfil.php"><img class="perfil-icone" src="../img/icone-perfil.png" alt=""></a>
+                    <a href="perfil.php"><img class="perfil-icone" src="https://i.ibb.co/Jr79P3k/icone-perfil.png" alt=""></a>
                 </div>
             </div>
         </nav>

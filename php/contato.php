@@ -55,7 +55,7 @@
                                     </div>";
                                 }
                             ?>  
-                        <a href="perfil.php"><img class="perfil-icone" src="../img/icone-perfil.png" alt=""></a>
+                        <a href="perfil.php"><img class="perfil-icone" src="https://i.ibb.co/Jr79P3k/icone-perfil.png" alt=""></a>
                     </div>
                     </div>
                 </nav>
@@ -66,7 +66,7 @@
                 <h1 id="h1-contatos">Contatos</h1>
                 <div class="grid-container">
                     <div class="atendenteDuvidas">
-                        <img class="imagem-atendente" src="../img/miguel_sales.png" alt="">
+                        <img class="imagem-atendente" src="https://i.ibb.co/W67mZX5/miguel-sales.png" alt="">
                         <div class="informacao">
                             <h3>Miguel Sales</h3>
                             <h4>Desenvolvedor</h4>
@@ -80,7 +80,7 @@
                     </div>
             
                     <div class="atendenteDuvidas">
-                        <img class="imagem-atendente" src="../img/jacquys_barbosa.png" alt="">
+                        <img class="imagem-atendente" src="https://i.ibb.co/yBBq37f/jacquys-barbosa.png" alt="">
                         <div class="informacao">
                             <h3>Jacquys Barbosa</h3>
                             <h4>Desenvolvedor</h4>
@@ -94,7 +94,7 @@
                     </div>
             
                     <div class="atendenteDuvidas">
-                        <img class="imagem-atendente" src="../img/victor_koba.png" alt="">
+                        <img class="imagem-atendente" src="https://i.ibb.co/9Wf0ybC/victor-koba.png" alt="">
                         <div class="informacao">
                             <h3>Victor Koba</h3>
                             <h4>Desenvolvedor</h4>
@@ -108,7 +108,7 @@
                     </div>
             
                     <div class="atendenteDuvidas">
-                        <img class="imagem-atendente" src="../img/nicole_cafalloni.png" alt="">
+                        <img class="imagem-atendente" src="https://i.ibb.co/Wz1F5FP/nicole-cafalloni.png" alt="">
                         <div class="informacao">
                             <h3>Nicole Cafalloni</h3>
                             <h4>Desenvolvedor</h4>
