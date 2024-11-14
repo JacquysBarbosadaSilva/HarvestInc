@@ -69,8 +69,13 @@
                         <img class="imagem-atendente" src="../img/miguel_sales.png" alt="">
                         <div class="informacao">
                             <h3>Miguel Sales</h3>
-                            <h4>Atendente de Dúvidas</h4>
-                            <p>(12) 99125-4471</p>
+                            <h4>Desenvolvedor</h4>
+                            <p>Em caso de dúvidas, entre em contato:</p>
+                            <div class='container-redes-sociais'>
+                                <a href="#" class='imagem-redes-sociais'>
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-linkedin.jpg" alt="">
+                                </a>
+                            </div>
                         </div> 
                     </div>
             
@@ -78,8 +83,13 @@
                         <img class="imagem-atendente" src="../img/jacquys_barbosa.png" alt="">
                         <div class="informacao">
                             <h3>Jacquys Barbosa</h3>
-                            <h4>Atendente de Dúvidas</h4>
-                            <p>(12) 99643-9932</p>
+                            <h4>Desenvolvedor</h4>
+                            <p>Em caso de dúvidas, entre em contato:</p>
+                            <div class='container-redes-sociais'>
+                                <a href="#" class='imagem-redes-sociais'>
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-linkedin.jpg" alt="">
+                                </a>
+                            </div>
                         </div> 
                     </div>
             
@@ -87,8 +97,13 @@
                         <img class="imagem-atendente" src="../img/victor_koba.png" alt="">
                         <div class="informacao">
                             <h3>Victor Koba</h3>
-                            <h4>Atendente de Dúvidas</h4>
-                            <p>(12) 99865-0942</p>
+                            <h4>Desenvolvedor</h4>
+                            <p>Em caso de dúvidas, entre em contato:</p>
+                            <div class='container-redes-sociais'>
+                                <a href="#" class='imagem-redes-sociais'>
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-linkedin.jpg" alt="">
+                                </a>
+                            </div>
                         </div> 
                     </div>
             
@@ -96,8 +111,13 @@
                         <img class="imagem-atendente" src="../img/nicole_cafalloni.png" alt="">
                         <div class="informacao">
                             <h3>Nicole Cafalloni</h3>
-                            <h4>Atendente de Dúvidas</h4>
-                            <p>(12) 99132-7739</p>
+                            <h4>Desenvolvedor</h4>
+                            <p>Em caso de dúvidas, entre em contato:</p>
+                            <div class='container-redes-sociais'>
+                                <a href="#" class='imagem-redes-sociais'>
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-linkedin.jpg" alt="">
+                                </a>
+                            </div>
                         </div> 
                     </div>
                 </div>
