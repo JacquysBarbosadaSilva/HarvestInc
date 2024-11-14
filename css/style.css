@@ -165,7 +165,8 @@ a{
 }
 
 .background_bem_vindo{
-    background-image: url(../img/Imagem\ de\ fundo\ home\ page.jpg);
+    background-image: url(https://i.ibb.co/XCRnctw/Imagem-de-fundo-home-page.jpg);
+    background-size: cover;
 }
 
 .button_centralizar{
@@ -221,12 +222,21 @@ a{
     flex-direction: row;
 }
 
-section{
-    height: 100vh;
+.section-separacao{
+    height: 150vh;
 }
 
-.quem-somos{
-    
+.tamanho-img{
+    width: 380px;
+}
+
+.container-conteudos-pi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    gap: 100px;
+    margin-top: -60px;
 }
 
 .titulo-quem-somos{
@@ -238,14 +248,67 @@ section{
 
 .container-quem-somos{
     display: flex;
+    width: 50%;
+    height: 750px;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(240, 165, 0, 0.6); 
+    border-radius: 8px;
+    padding: 10px;
+    align-items: center;
     justify-content: center;
 }
 
-.descricao-quem-somos{
+.titulo-cards{
+    text-align: center;
+}
+
+.icone-card{
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+}
+
+.alinhamento-icones{
+    display: flex;
+    justify-content: center;
+}
+
+.cards-principios{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    height: 200px;
+}
+
+.card-principios-conteudo{
+    padding: 20px;
+    width: 50%;
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card-principios-conteudo:hover{
+    cursor: pointer;
+    padding: 35px;
+    transition: ease-in 1s;
+    transition: ease-out 1s;
+}
+
+.descricao-conteudo-card{
+    display: none;
+}
+
+.card-principios-conteudo.active .descricao-quem-somos {
+    display: block; /* Mostra a descrição apenas quando o card é clicado */
+}
+
+.descricao-conteudo{
     font-family: 'Inria Serif';
     font-size: 24px;
     text-align: justify;
     line-height: 40px;
+    margin-top: 30px;
     width: 600px;
 }
 /* Cadastrar */

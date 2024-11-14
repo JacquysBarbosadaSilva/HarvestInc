@@ -8,3 +8,14 @@ menuButton.addEventListener("click", function() {
     menu.style.display = "block";
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.card-principios-conteudo');
+
+  cards.forEach(card => {
+      card.addEventListener('click', function() {
+          // Alterna a classe 'active' para mostrar ou ocultar a descrição
+          this.classList.toggle('active');
+      });
+  });
+});
