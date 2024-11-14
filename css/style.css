@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -24,9 +24,9 @@ a{
 }
 
 .logo img {
-    width: 100px; 
+    width: 100px;
     background-color: white;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 .navegacao-paginas {
@@ -35,7 +35,7 @@ a{
     align-items: center;
 }
 
-#botoes-caddastrar-login{
+#botoes-caddastrar-login {
     display: flex;
     align-items: baseline;
 }
@@ -60,12 +60,13 @@ a{
     transition: color 0.3s ease;
 }
 
-.button-logar{
+.button-logar {
     margin-right: 20px;
 }
 
 .navegacao-paginas ul li a:hover {
-    color: #f0a500; /* Cor de destaque ao passar o mouse */
+    color: #f0a500;
+    /* Cor de destaque ao passar o mouse */
 }
 
 .alinhamento-login-finalizado-glossario {
@@ -100,7 +101,8 @@ a{
 
 .button-cadastrar:hover {
     background-color: white;
-    color: #F2B441; /* Cor ao passar o mouse */
+    color: #F2B441;
+    /* Cor ao passar o mouse */
 }
 
 .button-login {
@@ -117,7 +119,7 @@ a{
 
 
 /* Bem Vindo */
-.bem_vindo{
+.bem_vindo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,55 +128,55 @@ a{
     color: white;
 }
 
-.bem_vindo h1{
+.bem_vindo h1 {
     position: relative;
     display: inline-block;
     font-family: 'Kaushan Script';
     font-size: 100px;
-    
+
 }
 
-.bem_vindo .titulo-bem-vindo::before{
+.bem_vindo .titulo-bem-vindo::before {
     content: '';
     position: absolute;
     top: 0;
     left: -150px;
     width: calc(100% + 350px);
     height: 2px;
-    background-color: #ffffff; 
+    background-color: #ffffff;
 }
 
 .line-below {
     position: relative;
     display: inline-block;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
 }
 
 .line-below::after {
     content: '';
     position: absolute;
-    bottom: 0; 
-    left: -150px; 
-    width: calc(100% + 350px); 
-    height: 2px; 
-    background-color: #ffffff; 
+    bottom: 0;
+    left: -150px;
+    width: calc(100% + 350px);
+    height: 2px;
+    background-color: #ffffff;
 }
 
-.transparet_background{
+.transparet_background {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.background_bem_vindo{
+.background_bem_vindo {
     background-image: url(../img/Imagem\ de\ fundo\ home\ page.jpg);
 }
 
-.button_centralizar{
+.button_centralizar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.button_saiba_mais_home_page{
+.button_saiba_mais_home_page {
     padding: 20px;
     background: linear-gradient(#F2B441, #8C6826);
     margin-top: -200px;
@@ -186,68 +188,65 @@ a{
     color: white;
     border-radius: 50px;
     font-family: "Kavivanar", cursive;
-    transition:transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 
-.button_saiba_mais_home_page:hover{
+.button_saiba_mais_home_page:hover {
     cursor: pointer;
     transform: scale(1.1);
     transition: 3ms;
 }
 
-.amarelo{
+.amarelo {
     background-color: #F2B441;
     width: 70px;
     height: 300px;
     margin-right: -35px;
 }
 
-.laranja{
+.laranja {
     background-color: #D98B48;
     width: 70px;
     margin-right: -35px;
     height: 270px;
 }
 
-.marrom{
+.marrom {
     background-color: #8C5B3F;
     width: 70px;
     height: 240px;
 }
 
-.retangulos{
+.retangulos {
     max-height: 300px;
     display: flex;
     flex-direction: row;
 }
 
-section{
+section {
     height: 100vh;
 }
 
-.quem-somos{
-    
-}
-
-.titulo-quem-somos{
+.titulo-quem-somos {
     display: flex;
     justify-content: center;
     font-family: 'Lalezar';
     font-size: 48px;
 }
 
-.container-quem-somos{
+.container-quem-somos {
     display: flex;
     justify-content: center;
 }
 
-.descricao-quem-somos{
+.descricao-quem-somos {
     font-family: 'Inria Serif';
     font-size: 24px;
     text-align: justify;
     line-height: 40px;
     width: 600px;
 }
+
 /* Cadastrar */
 
 .body-cadastrar-login {
@@ -256,19 +255,12 @@ section{
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: #f0f0f0; /* Cor de fundo suave */
+    background-color: #f0f0f0;
+    /* Cor de fundo suave */
 }
 
 .campos-texto {
-    display: flex;
-    justify-content: center;
     gap: 5%;
-    margin-top: 20px;
-}
-
-.campos-texto-1{
-	display: flex;
-    gap: 12%;
     margin-top: 20px;
 }
 
@@ -277,67 +269,87 @@ section{
     justify-content: center;
 }
 
-.button-entrar{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    background-color: #F2B441;
-    border: none;
-    font-size: larger;
-    border-radius: 5px;
-    color: white;
-    font-weight: bolder;
-    align-items: center;
-    padding: 10px;
-    margin-top: 20px;
+.button-entrar {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #F2B441;
+    border-radius: 0.6em;
+    color: #F2B441;
     cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.button-entrar:hover,
+.button-entrar:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.button-entrar {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.button-entrar:hover {
+    box-shadow: 0 0 40px 40px #F2B441 inset;
 }
 
 .form-login {
     padding: 20px;
     width: 50%;
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     background-color: white;
 }
 
-.campos-info{
-    width: 80%;
+.campos-info {
+    width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
     border-radius: 5px;
+    margin-top: 10px;
     border: none;
     outline: none;
-    background-color: rgba(0, 0, 255, 0.1);
+    background-color: rgb(45 45 60 / 10%);
     box-sizing: border-box;
-    cursor: pointer;
 }
 
-.campos-info:hover{
-    border: 2px solid #000000;
+.campos-info:focus {
+    border: 1.8px solid black;
 }
 
-.identificador-campo{
+.identificador-campo {
     align-items: center;
     display: flex;
 }
 
-.formulario{
+.formulario {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0; /* Cor de fundo opcional */
+    background-color: #f0f0f0;
+    /* Cor de fundo opcional */
 }
 
-.lugar-logo{
+.lugar-logo {
     display: flex;
     justify-content: space-around;
     gap: 150px;
 }
 
-.alinhamento-login-finalizado{
+.alinhamento-login-finalizado {
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -352,7 +364,7 @@ section{
     justify-content: center;
 }
 
-.button-sair{
+.button-sair {
     display: flex;
     width: 20%;
     justify-content: center;
@@ -361,23 +373,24 @@ section{
     margin-top: 20px;
 }
 
-#redirecionamento{
+#redirecionamento {
     color: #F2B441;
+    text-decoration: revert;
 }
 
-#redirecionamento:hover{
+#redirecionamento:hover {
     color: #8C6826;
     cursor: pointer;
     text-decoration: dashed;
 }
 
-#div-redirecionamento{
+#div-redirecionamento {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
 
-.perfil-icone{
+.perfil-icone {
     height: 50px;
     background-color: white !important;
     border-radius: 50px;
@@ -385,12 +398,12 @@ section{
     margin-right: 30px;
 }
 
-.perfil-icone:hover{
+.perfil-icone:hover {
     height: 55px;
     transition: color 0.7s ease;
 }
 
-.button-login-logado{
+.button-login-logado {
     padding: 10px 20px;
     border-radius: 10px;
     background-color: transparent;
@@ -400,7 +413,7 @@ section{
     font-size: 20px;
 }
 
-.button-login{
+.button-login {
     display: flex;
     border: 1px solid #F2B441;
     border-radius: 5px;
@@ -416,13 +429,13 @@ section{
     cursor: pointer;
 }
 
-.button-login:hover{
+.button-login:hover {
     background-color: #F2B441;
     color: white;
     cursor: pointer;
 }
 
-.selecionar-tipo{
+.selecionar-tipo {
     display: flex;
     gap: 30px;
     padding: 10px;
@@ -431,50 +444,33 @@ section{
     justify-content: center;
 }
 
-#tipo-de-usuario{
-	display: flex;
-	align-items: center;
+#tipo-de-usuario {
+    display: flex;
+    align-items: center;
 }
 
-.logo-cadastrar{
+.logo-cadastrar {
     width: 100px;
     margin-bottom: 10px;
 }
 
-.lugar-logo{
+.lugar-logo {
     display: flex;
     justify-content: space-around;
     gap: 150px;
 }
 
-.button-voltar {
-    width: 40px;
-    height: 40px;
-    border-radius: 30px;
-    border: none;
-    background-color: #F2B441;
-    cursor: pointer;
-}
-
-.button-voltar1{
-    width: 40px;
-    height: 40px;
-    border-radius: 30px;
-    border: none;
-    background-color: transparent;
-}
-
-.imagem-voltar{
-    width: 20px;
-}
-
 /* Perfil */
 .fundo-da-pagina {
-    height: 100vh; /* Faz a div ocupar a altura total da página */
+    height: 100vh;
+    /* Faz a div ocupar a altura total da página */
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    background-color: #f0f0f0; /* Cor de fundo suave */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    background-color: #f0f0f0;
+    /* Cor de fundo suave */
 }
 
 .fundo-form {
@@ -491,12 +487,12 @@ section{
     width: 40%;
 }
 
-.imagem-icone{
+.imagem-icone {
     width: 100px;
     margin-right: 50px;
 }
 
-.imagem-icone:hover{
+.imagem-icone:hover {
     background-color: #333;
     border-radius: 500px;
     cursor: pointer;
@@ -504,19 +500,20 @@ section{
     opacity: 0.7;
 }
 
-.alinhamento-form{
+.alinhamento-form {
     display: flex;
     justify-content: space-around;
     gap: 20px;
     margin-top: 20px;
 }
 
-.tamanho-formulario{
+.tamanho-formulario {
     width: 80%;
 }
 
-.button-alterar-deletar{
-    padding: 10px 20px; /* Ajuste conforme necessário */
+.button-alterar-deletar {
+    padding: 10px 20px;
+    /* Ajuste conforme necessário */
     width: auto;
     display: flex;
     justify-content: center;
@@ -533,8 +530,9 @@ section{
     cursor: pointer;
 }
 
-.button-logout{
-    padding: 10px 20px; /* Ajuste conforme necessário */
+.button-logout {
+    padding: 10px 20px;
+    /* Ajuste conforme necessário */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: auto;
     display: flex;
@@ -552,66 +550,66 @@ section{
     cursor: pointer;
 }
 
-.button-logout:hover{
+.button-logout:hover {
     background-color: white;
     color: red;
     font-size: large;
     border: 2px solid red;
 }
 
-.apenas-button{
+.apenas-button {
     display: flex;
     gap: 30px;
     margin-top: 30px;
     justify-content: center;
 }
 
-.apenas-button-form-alterar{
+.apenas-button-form-alterar {
     display: flex;
     gap: 30px;
     margin-bottom: 20px;
     justify-content: center;
 }
 
-.alinhamento-imagem-icone{
+.alinhamento-imagem-icone {
     display: flex;
     align-items: center;
 }
 
-.tamanh-total{
+.tamanh-total {
     width: 100%;
 }
 
-.centralizacao-formulario{
+.centralizacao-formulario {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
 
-.perfil-dialogo{
+.perfil-dialogo {
     justify-content: center;
-    
+
 }
 
-.perfil-dialogo-alinhamento{
+.perfil-dialogo-alinhamento {
     display: flex;
     align-items: center;
 }
 
-.perfil-icone{
+.perfil-icone {
     height: 50px;
     background-color: white !important;
     border-radius: 50px;
     cursor: pointer;
 }
 
-.perfil-icone:hover{
+.perfil-icone:hover {
     height: 55px;
     transition: color 0.7s ease;
 }
 
-.alinhamento-login-finalizado{
+.alinhamento-login-finalizado {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -628,10 +626,20 @@ section{
     padding: 20px;
 }
 
+.imagem-redes-sociais {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.container-redes-sociais {
+    display: inline-block;
+    margin: 1em;
+}
+
 #h1-contatos {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 40px;
-    color: #333;
+    font-family: 'Lalezar';
+    font-size: 48px;
+    color: black;
     margin-bottom: 30px;
 }
 
@@ -696,20 +704,21 @@ section{
 }
 
 /* Planos */
-#main-plano{
+#main-plano {
     justify-content: center;
     align-items: center;
     flex-direction: column;
     display: flex;
 
 }
-#h1-plano{
+
+#h1-plano {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.card-inicial{
+.card-inicial {
     background-color: #f2b749;
     text-align: justify;
     width: 70%;
@@ -717,14 +726,14 @@ section{
 
 }
 
-.card-sobreposicao{
+.card-sobreposicao {
     background-color: rgb(255, 255, 255, 0.4);
     border-radius: 15px;
     margin: 20px;
     display: flex;
 }
 
-.card-informacao{
+.card-informacao {
     display: flex;
     margin-top: 30px;
     align-items: center;
@@ -733,29 +742,29 @@ section{
     padding-bottom: 20px;
 }
 
-.icon-planos{
+.icon-planos {
     width: 30px;
     display: flex;
     margin: 10px;
 }
 
-.infor-inicio{
+.infor-inicio {
     margin: 20px;
     padding-top: 20px;
 }
 
-#text-sub-titulo{
+#text-sub-titulo {
     margin: 20px;
     font-size: 18px;
 }
 
-#img-feira{
+#img-feira {
     height: 50%;
     width: 550px;
     opacity: 0.5;
 }
 
-#text-infor{
+#text-infor {
     font-size: 15px;
     text-align: justify;
 }

@@ -57,9 +57,7 @@
     <body class="body-cadastrar-login">
         <div class="form-login">
             <div class="lugar-logo">
-                <a href="../index.php"><button class="button-voltar"><img class="imagem-voltar" src="../img/de-volta.png" alt=""></button></a>
                 <img class="logo-cadastrar" src="../img/harvest_inc.png" alt="">
-                <button class="button-voltar1"></button>
             </div>
             
             <form class="'" action="" method="post">
@@ -69,12 +67,12 @@
 
                 <div class="campos-texto">
                     <label class="identificador-campo"  for="username">Usuário:</label>
-                    <input class="campos-info" type="text" id="username" name="username" required>
+                    <input placeholder="Digite seu usuário" class="campos-info" type="text" id="username" name="username" required>
                 </div>
                 
                 <div class="campos-texto">
                     <label class="identificador-campo" for="password">Senha:</label>
-                    <input class="campos-info" type="password" id="password" name="password" required>
+                    <input placeholder="Digite sua senha" class="campos-info" type="password" id="password" name="password" required>
                 </div>
                 
                 <div class="alinhamento-button">
