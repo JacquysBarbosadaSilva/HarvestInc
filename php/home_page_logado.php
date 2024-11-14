@@ -78,7 +78,7 @@
                 
             </section>
 
-            <section class="section-separacao">
+            <section class="section-separacao-quem-somos">
                 <div class="container-cards">
                     <div class="retangulos">
                         <div class="amarelo"></div>
@@ -105,11 +105,11 @@
 
             
             <section class="section-separacao">
-                <div class="container-conteudos-pi">
+                <div class="container-conteudos-principios">
                     <div>
-                        <img class="tamanho-img" src="https://i.ibb.co/1ztKJj1/broto.png" alt="">
+                        <img class="img-broto" src="https://i.ibb.co/1ztKJj1/broto.png" alt="">
                     </div>
-                    <div id="container-quem-somos">
+                    <div id="container-principios">
                         <h2 class="titulo-quem-somos">Princípios</h2>
                         
                         <!-- Conteúdo que será exibido ao clicar em um card -->
