@@ -42,16 +42,16 @@
                             </ul> 
                         </div>
                         <div class="alinhamento-login-finalizado">
-                            <?php
+                        <?php
                                 if (isset($_SESSION['usuario']) && ($_SESSION['tipo'])) {
                                     echo "
                                     <div class='login-finalizado-navbar'>
-                                        <p class='button-login-logado'>Olá, " . $_SESSION['usuario'] . "!</p>
+                                        <p class='button-login-logado'>Olá, " . strtoupper($_SESSION['usuario']) . "</p>
                                     </div>";
                                 } else {
                                     echo "
                                     <div class='login-finalizado-navbar'>
-                                        <p class='button-login-logado'>Olá, admin " . $_SESSION['usuario'] . "!</p>
+                                        <p class='button-login-logado'>Olá, admin " . strtoupper($_SESSION['usuario']) . "</p>
                                     </div>";
                                 }
                             ?>  

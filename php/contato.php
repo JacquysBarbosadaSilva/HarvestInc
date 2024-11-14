@@ -46,16 +46,16 @@
                                 if (isset($_SESSION['usuario']) && ($_SESSION['tipo'])) {
                                     echo "
                                     <div class='login-finalizado-navbar'>
-                                        <p class='button-login-logado'>Olá, " . $_SESSION['usuario'] . "!</p>
+                                        <p class='button-login-logado'>Olá, " . strtoupper($_SESSION['usuario']) . "</p>
                                     </div>";
                                 } else {
                                     echo "
                                     <div class='login-finalizado-navbar'>
-                                        <p class='button-login-logado'>Olá, admin " . $_SESSION['usuario'] . "!</p>
+                                        <p class='button-login-logado'>Olá, admin " . strtoupper($_SESSION['usuario']) . "</p>
                                     </div>";
                                 }
                             ?>  
-                        <a href="perfil.php"><img class="perfil-icone" src="../img/icone-perfil.png" alt=""></a>
+                        <a href="perfil.php"><img class="perfil-icone" src="../img/logo-usuario.jpg" alt=""></a>
                     </div>
                     </div>
                 </nav>
@@ -67,56 +67,64 @@
                 <div class="grid-container">
                     <div class="atendenteDuvidas">
                         <img class="imagem-atendente" src="../img/miguel_sales.png" alt="">
-                        <div class="informacao">
+                        <div class="informacao-contato">
                             <h3>Miguel Sales</h3>
                             <h4>Desenvolvedor</h4>
                             <p>Em caso de dúvidas, entre em contato:</p>
                             <div class='container-redes-sociais'>
-                                <a href="#" class='imagem-redes-sociais'>
+                                <div class='imagem-redes-sociais'>
                                     <img class="fa fa-linkedin fa-fw" src="../img/logo-linkedin.jpg" alt="">
-                                </a>
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-gmail.png" alt="">
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-instagram.jpg" alt="">
+                                </div>
                             </div>
                         </div> 
                     </div>
             
                     <div class="atendenteDuvidas">
                         <img class="imagem-atendente" src="../img/jacquys_barbosa.png" alt="">
-                        <div class="informacao">
+                        <div class="informacao-contato">
                             <h3>Jacquys Barbosa</h3>
                             <h4>Desenvolvedor</h4>
                             <p>Em caso de dúvidas, entre em contato:</p>
                             <div class='container-redes-sociais'>
-                                <a href="#" class='imagem-redes-sociais'>
+                                <div class='imagem-redes-sociais'>
                                     <img class="fa fa-linkedin fa-fw" src="../img/logo-linkedin.jpg" alt="">
-                                </a>
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-gmail.png" alt="">
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-instagram.jpg" alt="">
+                                </div>
                             </div>
                         </div> 
                     </div>
             
                     <div class="atendenteDuvidas">
                         <img class="imagem-atendente" src="../img/victor_koba.png" alt="">
-                        <div class="informacao">
+                        <div class="informacao-contato">
                             <h3>Victor Koba</h3>
                             <h4>Desenvolvedor</h4>
                             <p>Em caso de dúvidas, entre em contato:</p>
                             <div class='container-redes-sociais'>
-                                <a href="#" class='imagem-redes-sociais'>
+                                <div class='imagem-redes-sociais'>
                                     <img class="fa fa-linkedin fa-fw" src="../img/logo-linkedin.jpg" alt="">
-                                </a>
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-gmail.png" alt="">
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-instagram.jpg" alt="">
+                                </div>
                             </div>
                         </div> 
                     </div>
             
                     <div class="atendenteDuvidas">
                         <img class="imagem-atendente" src="../img/nicole_cafalloni.png" alt="">
-                        <div class="informacao">
+                        <div class="informacao-contato">
                             <h3>Nicole Cafalloni</h3>
                             <h4>Desenvolvedor</h4>
                             <p>Em caso de dúvidas, entre em contato:</p>
                             <div class='container-redes-sociais'>
-                                <a href="#" class='imagem-redes-sociais'>
+                                <div class='imagem-redes-sociais'>
                                     <img class="fa fa-linkedin fa-fw" src="../img/logo-linkedin.jpg" alt="">
-                                </a>
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-gmail.png" alt="">
+                                    <img class="fa fa-linkedin fa-fw" src="../img/logo-instagram.jpg" alt="">
+                                </div>
                             </div>
                         </div> 
                     </div>
