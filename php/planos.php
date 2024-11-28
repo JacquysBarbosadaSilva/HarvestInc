@@ -21,7 +21,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kavivanar&display=swap" rel="stylesheet">
-        <script src="../javascript/main.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kavivanar&family=Lalezar&display=swap" rel="stylesheet">
+        <script src="../javascript/main.js" defer></script>
     </head>
     <body>
         <header>
@@ -51,44 +53,118 @@
                                 } else {
                                     echo "
                                     <div class='login-finalizado-navbar'>
-                                        <p class='button-login-logado'>Olá, admin " . $_SESSION['usuario'] . "!</p>
+                                        <a href=perfil.php><p class='button-login-logado'>Olá, admin " . $_SESSION['usuario'] . "!</p></a>
                                     </div>";
                                 }
                             ?>  
-                        <a href="perfil.php"><img class="perfil-icone" src="https://i.ibb.co/Jr79P3k/icone-perfil.png" alt=""></a>
+
+                    
                     </div>
                     </div>
                 </nav>
 
             </header>
 
-            <main id="main-plano">
-        <h1 id="h1-plano">PLANOS HARVEST</h1>
-
-    <div class="card-inicial">
-
-            <div class="card-sobreposicao">
-                <div>
-                    <h1 class="infor-inicio">Elabore um plano que atenda às necessidades específicas do seu negócio</h1>
-                    <p id="text-sub-titulo">Veja o que a Harvest proporciona</p>
-
-                    <div class="card-informacao">
-                        <img class="icon-planos" src="../img/icon-produtividade.png" alt=""> <p id="text-infor">Nossa empresa oferece soluções que elevam a produtividade por meio de tecnologia avançada e eficiente. 
-                        Com nossas ferramentas, você maximiza resultados, alcançando um desempenho superior.</p>
+            <main>
+                <section class="background_section">
+                    <div class="transparet_background">
+                        <div class="first_section">
+                            <h1 class="line-below">Serviços</h1>
+                        </div>
+                        
                     </div>
-        
-                    <div class="card-informacao">
-                        <img class="icon-planos" src="../img/icon-lucros.png" alt=""> <p id="text-infor">Aumenta seus lucros proporcionando praticidade e resultados concretos. 
-                        Nossas soluções otimizam processos e garantem um retorno financeiro superior.</p>
+                </section>
+
+                <div id="proxima-secao"></div>
+                
+                <div class="card-introducao-plano">
+
+                    <div class="alinhamento-card-introducao-planos">
+            
+                        <div class="titulo-card-plano">
+                            <h2 class="escrita-titulo">Adquira um plano</h2>
+                        </div>
+
+                        <div class="itens-introducao">
+                            <img class="icon-planos" src="../img/icon-produtividade.png" alt=""> 
+                            <p id="text-infor">Nossa empresa oferece soluções que elevam a produtividade por meio de tecnologia avançada e eficiente.Com nossas ferramentas, você maximiza resultados, alcançando um desempenho superior.</p>
+                        </div>
+
+                        <div class="linha"></div>
+
+                        <div class="itens-introducao">
+                            <img class="icon-planos" src="../img/icon-lucro.png" alt=""> 
+                            <p id="text-infor">Aumenta seus lucros proporcionando praticidade e resultados concretos. Nossas soluções otimizam processos e garantem um retorno financeiro superior.</p>
+                        </div>
+
                     </div>
+                    
                 </div>
-                <div></div>
-                   <div class="sombra-img"></div>
-                <img id="img-feira" src="https://i.ibb.co/zSZHPXD/img-feira.png" alt="">
-            </div>
 
-        </div>
+                <button id="botao-scroll" class="botao-scroll" aria-label="Ir para a próxima seção">
+                    <i class="fas fa-arrow-down"></i>
+                </button>
+                
+                <div>
 
-    </main>
+                    <h2 class="escrita-titulo-planos">Planos disponíveis</h2>
+
+                    <div class="alinhamento-cards-planos">
+                        
+                        <div class="cards-planos">
+                            <h3 >Plano 1</h3>
+                            <p class="tamanho-preco">99,99</p>
+                            
+                            <div class="itens-planos">
+                                <ul class="lista-planos">
+                                    <li class="conteudo-planos-inicial">teste</li>
+                                    <li class="conteudo-planos">teste</li>
+                                    <li class="conteudo-planos">teste</li>
+                                    <li class="conteudo-planos">teste</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+
+                        <div class="cards-planos">
+                            <h3>Plano 2</h3>
+                            <p class="tamanho-preco">99,99</p>
+
+                            <div class="itens-planos">
+                                <ul class="lista-planos">
+                                    <li class="conteudo-planos-inicial">teste</li>
+                                    <li class="conteudo-planos">teste</li>
+                                    <li class="conteudo-planos">teste</li>
+                                    <li class="conteudo-planos">teste</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="cards-planos">
+                            <h3>Plano 3</h3>
+                            <p class="tamanho-preco">99,99</p>
+
+                            <div class="itens-planos">
+                                <ul class="lista-planos">
+                                    <li class="conteudo-planos-inicial">teste</li>
+                                    <li class="conteudo-planos">teste</li>
+                                    <li class="conteudo-planos">teste</li>
+                                    <li class="conteudo-planos">teste</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    
+                </div>
+                
+                
+                
+            </main>
+            <footer></footer>
+            
+            
     </body>
 </html>

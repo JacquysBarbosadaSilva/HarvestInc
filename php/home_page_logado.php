@@ -21,8 +21,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kavivanar&family=Lalezar&display=swap" rel="stylesheet">  
-
-        <script src="../javascript/main.js"></script>
+        <script src="../javascript/main.js" defer></script>
     </head>
     
     <body>
@@ -78,29 +77,37 @@
                 
             </section>
 
-            <section class="section-separacao-quem-somos">
-                <div class="container-cards">
-                    <div class="retangulos">
-                        <div class="amarelo"></div>
-                        <div class="laranja"></div>
-                        <div class="marrom"></div>
-                    </div>
-                </div>
+            <button id="botao-scroll" class="botao-scroll" aria-label="Ir para a próxima seção">
+                <i class="fas fa-arrow-down"></i>
+            </button>
 
-                <div class="container-conteudos-pi">
-                    <div id="container-quem-somos">
-                        <h2 class="titulo-quem-somos">Quem Somos?</h2>
-                        <p class="descricao-conteudo">A Harvest Inc. é uma empresa de agropecuária focada na excelência, sustentabilidade e inovação. Nosso compromisso é otimizar a produção e preservar o meio ambiente.</p>
-                        <p class="descricao-conteudo">Produzimos alimentos de alta qualidade utilizando tecnologias avançadas e práticas agrícolas responsáveis.</p>
-                        <p class="descricao-conteudo">Investimos na capacitação de nossos colaboradores e promovemos a segurança em todas as operações.</p>
-                        <p class="descricao-conteudo">Na Harvest Inc., trabalhamos para um futuro agrícola produtivo e sustentável.</p>
+            <div id="proxima-secao">
+                <section class="section-separacao-quem-somos">
+                    <div class="container-cards">
+                        <div class="retangulos">
+                            <div class="amarelo"></div>
+                            <div class="laranja"></div>
+                            <div class="marrom"></div>
+                        </div>
                     </div>
-                    <div>
-                        <img class="tamanho-img" src="https://i.ibb.co/NxCX5Q3/img-horta.png" alt="">
-                    </div>
-                </div>
 
-            </section>
+                
+
+                    <div class="container-conteudos-pi">
+                        <div id="container-quem-somos">
+                            <h2 class="titulo-quem-somos">Quem Somos?</h2>
+                            <p class="descricao-conteudo">A Harvest Inc. é uma empresa de agropecuária focada na excelência, sustentabilidade e inovação. Nosso compromisso é otimizar a produção e preservar o meio ambiente.</p>
+                            <p class="descricao-conteudo">Produzimos alimentos de alta qualidade utilizando tecnologias avançadas e práticas agrícolas responsáveis.</p>
+                            <p class="descricao-conteudo">Investimos na capacitação de nossos colaboradores e promovemos a segurança em todas as operações.</p>
+                            <p class="descricao-conteudo">Na Harvest Inc., trabalhamos para um futuro agrícola produtivo e sustentável.</p>
+                        </div>
+                        <div>
+                            <img class="tamanho-img" src="https://i.ibb.co/NxCX5Q3/img-horta.png" alt="">
+                        </div>
+                    </div>
+
+                </section>
+            </div>
 
 
             
