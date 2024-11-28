@@ -488,11 +488,9 @@ a {
 }
 
 .alinhamento-login-finalizado {
-    display: flex;
-    justify-content: center;
     font-weight: bold;
-    align-items: center;
-    width: 250px;
+    margin-right: 10px;
+
 }
 
 .alinhamento-button {
@@ -551,6 +549,10 @@ a {
     font-size: 20px;
 }
 
+.button-login-logado:hover {
+    cursor: pointer !important;
+}
+
 .button-login {
     display: flex;
     border: 1px solid #F2B441;
@@ -580,6 +582,17 @@ a {
     border-radius: 10px;
     width: 200px;
     justify-content: center;
+}
+
+#div-redirecionamento{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#redirecionamento{
+    color: #f0a500;
+    font-size: medium;
 }
 
 #tipo-de-usuario {
@@ -751,7 +764,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
 }
 
 .contatoMain {
@@ -842,67 +854,177 @@ a {
 }
 
 /* Planos */
-#main-plano {
-    justify-content: center;
-    align-items: center;
+.background_section{
+    background-image: url(../img/moeda_planta.jpeg);
+    background-size: cover;
+}
+
+.first_section{
+    display: flex;
     flex-direction: column;
-    display: flex;
-
-}
-
-#h1-plano {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.card-inicial {
-    background-color: #f2b749;
-    text-align: justify;
-    width: 70%;
-    border-radius: 20px;
-
-}
-
-.card-sobreposicao {
-    background-color: rgb(255, 255, 255, 0.4);
-    border-radius: 15px;
-    margin: 20px;
-    display: flex;
-}
-
-.card-informacao {
-    display: flex;
-    margin-top: 30px;
     align-items: center;
     justify-content: center;
-    padding-right: 10px;
-    padding-bottom: 20px;
+    height: 95vh;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.6); 
+    color: white;
 }
 
-.icon-planos {
-    width: 30px;
+.first_section h1{
+    position: relative;
+    display: inline-block;
+    font-family: 'Kaushan Script';
+    font-size: 100px;
+}
+
+.titulo-card-plano{
     display: flex;
-    margin: 10px;
+    justify-content: center;
+    font-size: 30px;
+    height: 70px;
+    align-items: center;
 }
 
-.infor-inicio {
-    margin: 20px;
-    padding-top: 20px;
+.titulo-card-plano h2{
+    font-family: 'Lalezar';
+    margin-bottom: 60px;
 }
 
-#text-sub-titulo {
-    margin: 20px;
-    font-size: 18px;
+.card-introducao-plano {
+    width: 45%; 
+    height: auto;
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: 2px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+    margin-top: 80px;
 }
 
-#img-feira {
-    height: 50%;
-    width: 550px;
-    opacity: 0.5;
+.alinhamento-card-introducao-planos{
+    text-align: center;
+    padding: 30px;
 }
 
-#text-infor {
-    font-size: 15px;
+.escrita-titulo{
+    font-family: 'Lalezar';
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.itens-introducao{
+
+    display: flex;
+    align-items: center;
+    margin: auto;
     text-align: justify;
+    width: 75%;
+    font-size: 18px;
+    gap: 50px;
 }
+
+.icon-planos{
+    height: 55px;
+}
+
+.linha{
+    border-top: #f0a500 1px solid !important;
+    width: 80%;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    margin: auto;
+}
+
+.alinhamento-cards-planos{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.cards-planos{
+    margin-top: 30px;
+    height: 500px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cards-planos h3{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.escrita-titulo-planos{
+    font-family: 'Lalezar';
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.tamanho-preco{
+    font-size: 55px;
+    font-family: 'Inria Serif';
+    display: flex;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-planos{
+    list-style-type: none;
+}
+
+.conteudo-planos{
+    width: 80%;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.itens-planos{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-planos-inicial{
+    width: 80%;
+    justify-content: start;
+    margin-top: 15px;
+}
+
+/* Botão de scroll */
+.botao-scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000; /* Garante que fique acima dos outros elementos */
+}
+
+.botao-scroll:hover {
+    background-color: #e68900;
+    transform: translateY(5px);
+}
+
+.botao-scroll:focus {
+    outline: none;
+}
+

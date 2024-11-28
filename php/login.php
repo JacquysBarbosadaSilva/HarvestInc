@@ -76,6 +76,10 @@
                 <div class="alinhamento-button">
                     <button class="button-entrar" type="submit">Entrar</button>
                 </div>
+
+                <div id="div-redirecionamento">
+                    <a id="redirecionamento" href="cadastrar.php">Não tem uma conta? Fazer seu cadastro</a>
+                </div>
                 
                 
             </form>
