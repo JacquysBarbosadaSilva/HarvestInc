@@ -248,7 +248,7 @@ a {
 }
 
 .section-separacao-quem-somos{
-    height: 140vh;
+    height: 130vh;
 }
 
 .container-conteudos-principios{
@@ -257,7 +257,7 @@ a {
     align-items: center;
     background-size: cover;
     gap: 100px;
-    margin-top: -60px;
+    /* margin-top: -60px; */
 }
 
 .titulo-quem-somos{
@@ -279,7 +279,7 @@ a {
 #container-quem-somos {
     display: flex;
     width: 45%;
-    height: 700px;
+    height: 650px;
     flex-direction: column;
     box-shadow: 0 2px 5px rgba(240, 165, 0, 0.6); 
     border-radius: 8px;
@@ -291,7 +291,7 @@ a {
 #container-principios {
     display: flex;
     width: 45%;
-    height: 700px;
+    height: 710px;
     flex-direction: column;
     box-shadow: 0 2px 5px rgba(240, 165, 0, 0.6); 
     border-radius: 8px;
@@ -382,7 +382,7 @@ a {
     text-align: justify;
     line-height: 40px;
     margin-top: 30px;
-    width: 600px;
+    width: 90%;
 }
 
 /* Cadastrar */
