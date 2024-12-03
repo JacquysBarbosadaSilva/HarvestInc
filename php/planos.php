@@ -25,6 +25,7 @@
         <title>Planos - Harvest Inc</title>
         <link rel="stylesheet" href="../css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" id="tamanho-icone" href="../img/harvest_inc-icone.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -77,7 +78,7 @@
                 <section class="background_section">
                     <div class="transparet_background">
                         <div class="first_section">
-                            <h1 class="line-below">Serviços</h1>
+                            <h1 class="line-below">Planos</h1>
                         </div>
                         
                     </div>

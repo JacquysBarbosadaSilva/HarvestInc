@@ -16,6 +16,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Harvest.Inc</title>
+        <link rel="icon" type="image/png" id="tamanho-icone" href="../img/harvest_inc-icone.png">
         <link rel="stylesheet" href="../css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -73,9 +74,7 @@
                         <h1 class="titulo-bem-vindo line-below">Bem Vindo</h1>
                     </div>
 
-                    <div class="button_centralizar">
-                        <a href="#container-quem-somos" class="button_saiba_mais_home_page">Saiba Mais</a>
-                    </div>
+                    
                 </div>
                 
             </section>
@@ -150,7 +149,7 @@
 
             <section class="section-separacao-collums">
 
-                <div class="container-produtividade">
+                <div class="container-produtividade espacamento">
 
                     <img class="tmnh-imagem-colheita" src="../img/trator-colheita.jpg" alt="Imagem de trator colhendo">
 
@@ -201,6 +200,7 @@
             </section>
 
         </main>
+
 
         <script src="../javascript/main.js"></script>
     </body>

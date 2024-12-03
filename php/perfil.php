@@ -44,6 +44,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <link rel="icon" type="image/png" id="tamanho-icone" href="../img/harvest_inc-icone.png">
         <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>        
         <title>Perfil - Harvest Inc</title>
@@ -92,10 +93,6 @@
 
                     
                 <div class="centralizacao-formulario">
-                    <div>
-                        <img id="iconePerfil" class="imagem-icone" src="<?php echo isset($_SESSION['imagem_perfil']) ? $_SESSION['imagem_perfil'] : '../img/icone-perfil.png'; ?>" alt="Ícone de Perfil">
-                        <input type="file" id="uploadImagem" accept="image/*" style="display: none;">
-                    </div>
                     <form class="tamanho-formulario" action="" method="post">
                         <div class="campos-texto">
                             <label class="identificador-campo"  for="username">Usuário:</label>

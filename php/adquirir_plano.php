@@ -67,6 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planos - Harvest Inc</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" id="tamanho-icone" href="../img/harvest_inc-icone.png">
     <script src="../javascript/main.js" defer></script>
 </head>
 <body>

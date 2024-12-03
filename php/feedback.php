@@ -43,6 +43,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Feedback - Harvest Inc</title>
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" type="image/png" id="tamanho-icone" href="../img/harvest_inc-icone.png">
         <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -163,18 +164,19 @@
                         <div class="separacao">
                             <label for="rating">Nota:</label>
                             <div class="stars">
-                                <input type="radio" name="rating" id="star1" value="1">
-                                <label for="star1">&#9733;</label>
-                                <input type="radio" name="rating" id="star2" value="2">
-                                <label for="star2">&#9733;</label>
-                                <input type="radio" name="rating" id="star3" value="3">
-                                <label for="star3">&#9733;</label>
-                                <input type="radio" name="rating" id="star4" value="4">
-                                <label for="star4">&#9733;</label>
                                 <input type="radio" name="rating" id="star5" value="5">
                                 <label for="star5">&#9733;</label>
+                                <input type="radio" name="rating" id="star4" value="4">
+                                <label for="star4">&#9733;</label>
+                                <input type="radio" name="rating" id="star3" value="3">
+                                <label for="star3">&#9733;</label>
+                                <input type="radio" name="rating" id="star2" value="2">
+                                <label for="star2">&#9733;</label>
+                                <input type="radio" name="rating" id="star1" value="1">
+                                <label for="star1">&#9733;</label>
                             </div>
                         </div>
+
                     </div>
                 
                     

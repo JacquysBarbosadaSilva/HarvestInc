@@ -16,6 +16,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Planos - Harvest Inc</title>
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" type="image/png" id="tamanho-icone" href="../img/harvest_inc-icone.png">
         <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,7 +56,7 @@
                                     </div>";
                                 }
                             ?>  
-                        <a href="perfil.php"><img class="perfil-icone" src="https://i.ibb.co/Jr79P3k/icone-perfil.png" alt=""></a>
+                        
                     </div>
                     </div>
                 </nav>

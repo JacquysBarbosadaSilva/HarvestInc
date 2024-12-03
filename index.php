@@ -55,9 +55,6 @@
                         <h1 class="titulo-bem-vindo line-below">Bem Vindo</h1>
                     </div>
 
-                    <div class="button_centralizar">
-                        <a href="#container-quem-somos" class="button_saiba_mais_home_page">Saiba Mais</a>
-                    </div>
                 </div>
                 
             </section>
@@ -149,7 +146,7 @@
 
             <section class="section-separacao-collums">
 
-                <div class="container-produtividade">
+                <div class="container-produtividade espacamento">
 
                     <div class="conteudo-produtividade">
                         <h2 class="titulo-home-page-info">Segurança</h2>

@@ -20,9 +20,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    
+
     // Fechar modal após envio do formulário
     const form = modal.querySelector('form');
     form.addEventListener('submit', () => {
         modal.style.display = 'none';
     });
 });
+
