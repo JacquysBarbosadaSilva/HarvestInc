@@ -47,16 +47,15 @@
                             if (isset($_SESSION['usuario']) && ($_SESSION['tipo'])) {
                                 echo "
                                 <div class='login-finalizado-navbar'>
-                                    <p class='button-login-logado'>Olá, " . $_SESSION['usuario'] . "!</p>
+                                    <a href=perfil.php><p class='button-login-logado'>Olá, " . $_SESSION['usuario'] . "!</p></a>
                                 </div>";
                             } else {
                                 echo "
                                 <div class='login-finalizado-navbar'>
-                                    <p class='button-login-logado'>Olá, admin " . $_SESSION['usuario'] . "!</p>
+                                    <a href=perfil.php><p class='button-login-logado'>Olá, admin " . $_SESSION['usuario'] . "!</p></a>
                                 </div>";
                             }
                         ?>  
-                    <a href="perfil.php"><img class="perfil-icone" src="https://i.ibb.co/Jr79P3k/icone-perfil.png" alt=""></a>
                 </div>
                 </div>
             </nav>
