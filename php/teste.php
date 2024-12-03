@@ -1,6 +1,5 @@
 <?php
     session_start();
-    include 'conexao.php';
 
     // Verifica se o usuário está logado
     if (!isset($_SESSION['usuario']) || !isset($_SESSION['tipo'])) {
@@ -8,13 +7,6 @@
         header('Location: login.php');
         exit;
     }
-
-    $usuario_id = $_SESSION['id_usuario'];
-
-    // Verifica se o usuário tem um plano adquirido
-    $sql = "SELECT id FROM planos WHERE id = '$usuario_id' AND ativo = 1 LIMIT 1";
-    $result = $conexao->query($sql);
-    $plano_adquirido = $result->fetch_assoc();
 ?>
 
 <!DOCTYPE html>
@@ -119,80 +111,51 @@
 
                     <div class="alinhamento-cards-planos">
                         
-                    <div class="cards-planos">
-                        <h3>Plano Essencial</h3>
-                        <p class="tamanho-preco">59,90</p>
-
-                        <div class="itens-planos">
-                            <ul class="lista-planos">
-                                <li class="conteudo-planos-inicial">Monitoramento básico</li>
-                                <li class="conteudo-planos">Relatórios semanais de consumo de ração e insumos.</li>
-                                <li class="conteudo-planos">Sugestões de otimização simples com base em dados.</li>
-                                <li class="conteudo-planos">Alertas automáticos para reposição de insumos.</li>
-                                <li class="conteudo-planos">Suporte por e-mail.</li>
-                            </ul>
+                        <div class="cards-planos">
+                            <h3 >Plano Essencial</h3>
+                            <p class="tamanho-preco">59,90</p>
+                            
+                            <div class="itens-planos">
+                                <ul class="lista-planos">
+                                    <li class="conteudo-planos-inicial">Monitoramento básico</li>
+                                    <li class="conteudo-planos">Relatórios semanais de consumo de ração e insumos.</li>
+                                    <li class="conteudo-planos">Sugestões de otimização simples com base em dados.</li>
+                                    <li class="conteudo-planos">Alertas automáticos para reposição de insumos.</li>
+                                    <li class="conteudo-planos">Suporte por e-mail.</li>
+                                </ul>
+                            </div>
+                            
                         </div>
 
-                        <?php if (isset($plano_adquirido) && $plano_adquirido['plano_id'] == 1): ?>
-                            <span class="fa fa-check-circle" style="color: green;"></span>
-                        <?php else: ?>
+                        <div class="cards-planos">
+                            <h3>Plano Avançado</h3>
+                            <p class="tamanho-preco">79,90</p>
 
-                            <form class="alinhamento-btn-adquirir" action="adquirir_plano.php" method="POST">
-                                <button name="essencial" class="botao-adquirir">Adquirir</button>
-                            </form>
-                        <?php endif; ?>
-                    </div>
-
-                    <div class="cards-planos">
-                        <h3>Plano Avançado</h3>
-                        <p class="tamanho-preco">79,90</p>
-
-                        <div class="itens-planos">
-                            <ul class="lista-planos">
-                                <li class="conteudo-planos-inicial">Monitoramento completo de produção e recursos.</li>
-                                <li class="conteudo-planos">Relatórios personalizados de produtividade com análises detalhadas.</li>
-                                <li class="conteudo-planos">Previsão e controle de consumo de ração e insumos.</li>
-                                <li class="conteudo-planos">Suporte via chat e e-mail.</li>
-                                <li class="conteudo-planos">Gestão estratégica com informações para decisões mais assertivas.</li>
-                            </ul>
+                            <div class="itens-planos">
+                                <ul class="lista-planos">
+                                    <li class="conteudo-planos-inicial">Monitoramento completo de produção e recursos.</li>
+                                    <li class="conteudo-planos">Relatórios personalizados de produtividade com análises detalhadas.</li>
+                                    <li class="conteudo-planos">Previsão e controle de consumo de ração e insumos.</li>
+                                    <li class="conteudo-planos">Suporte via chat e e-mail.</li>
+                                    <li class="conteudo-planos">Gestão estratégica com informações para decisões mais assertivas.</li>
+                                </ul>
+                            </div>
                         </div>
 
-                        <?php if (isset($plano_adquirido) && $plano_adquirido['plano_id'] == 2): ?>
+                        <div class="cards-planos">
+                            <h3>Plano Premium</h3>
+                            <p class="tamanho-preco">99,90</p>
 
-                            <span class="fa fa-check-circle" style="color: green;"></span>
-                        <?php else: ?>
-
-                            <form class="alinhamento-btn-adquirir" action="adquirir_plano.php" method="POST">
-                                <button name="avancado" class="botao-adquirir">Adquirir</button>
-                            </form>
-                        <?php endif; ?>
-                    </div>
-
-                    <div class="cards-planos">
-                        <h3>Plano Premium</h3>
-                        <p class="tamanho-preco">99,90</p>
-
-                        <div class="itens-planos">
-                            <ul class="lista-planos">
-                                <li class="conteudo-planos-inicial">Monitoramento em tempo real de toda a cadeia produtiva.</li>
-                                <li class="conteudo-planos">Relatórios avançados com insights preditivos e recomendações detalhadas.</li>
-                                <li class="conteudo-planos">Suporte técnico e consultoria especializada.</li>
-                                <li class="conteudo-planos">Análise de dados e previsão de produção com indicadores de desempenho.</li>
-                                <li class="conteudo-planos">Maximização da eficiência, redução de custos e suporte total para decisões inteligentes e estratégicas.</li>
-                            </ul>
+                            <div class="itens-planos">
+                                <ul class="lista-planos">
+                                    <li class="conteudo-planos-inicial">Monitoramento em tempo real de toda a cadeia produtiva.</li>
+                                    <li class="conteudo-planos">Relatórios avançados com insights preditivos e recomendações detalhadas.</li>
+                                    <li class="conteudo-planos">Suporte técnico e consultoria especializada.</li>
+                                    <li class="conteudo-planos">Análise de dados e previsão de produção com indicadores de desempenho</li>
+                                    <li class="conteudo-planos"> Maximização da eficiência, redução de custos e suporte total para decisões inteligentes e estratégicas.</li>
+                                </ul>
+                            </div>
                         </div>
-
-                        <?php if (isset($plano_adquirido) && $plano_adquirido['plano_id'] == 3): ?>
-
-                            <span class="fa fa-check-circle" style="color: green;"></span>
-                        <?php else: ?>
-
-                            <form class="alinhamento-btn-adquirir" action="adquirir_plano.php" method="POST">
-                                <button name="premium" class="botao-adquirir">Adquirir</button>
-                            </form>
-                        <?php endif; ?>
-                    </div>
-
 
                         
                     </div>

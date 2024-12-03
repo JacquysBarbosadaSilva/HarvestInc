@@ -7,6 +7,7 @@
         header('Location: login.php');
         exit;
     }
+
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +26,7 @@
     </head>
     
     <body>
-    <header>
+        <header>
             <nav>
                 <div class="nav-bar">
                     
@@ -47,12 +48,15 @@
                             if (isset($_SESSION['usuario']) && ($_SESSION['tipo'])) {
                                 echo "
                                 <div class='login-finalizado-navbar'>
-                                    <a href=perfil.php><p class='button-login-logado'>Olá, " . $_SESSION['usuario'] . "!</p></a>
+                                
+                                <a href=perfil.php><p class='button-login-logado'>Olá, " . $_SESSION['usuario'] . "!</p></a>
+                                    
                                 </div>";
                             } else {
                                 echo "
                                 <div class='login-finalizado-navbar'>
                                     <a href=perfil.php><p class='button-login-logado'>Olá, admin " . $_SESSION['usuario'] . "!</p></a>
+
                                 </div>";
                             }
                         ?>  
@@ -110,7 +114,7 @@
 
 
             
-            <section class="section-separacao">
+            <section class="section-separacao-2">
                 <div class="container-conteudos-principios">
                     <div>
                         <img class="img-broto" src="https://i.ibb.co/1ztKJj1/broto.png" alt="">
@@ -144,6 +148,57 @@
                 </div>
             </section>
 
+            <section class="section-separacao-collums">
+
+                <div class="container-produtividade">
+
+                    <img class="tmnh-imagem-colheita" src="../img/trator-colheita.jpg" alt="Imagem de trator colhendo">
+
+                    <div class="conteudo-produtividade">
+                        <h2 class="titulo-home-page-info">Produtividade</h2>
+                        <p>Produtividade é uma prioridade fundamental e um reflexo do nosso compromisso com a excelência e a sustentabilidade. Investimos continuamente em tecnologias de ponta, como sistemas de irrigação automatizados e drones para monitoramento de culturas, o que nos permite otimizar o uso dos recursos e maximizar a produção.</p>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <div class="alinhamento-linha"><img class="height-linha-folha" src="../img/linha-folha.png" alt=""></div>
+
+            <section class="section-separacao-collums">
+
+                <div class="container-produtividade">
+
+                    <div class="conteudo-produtividade">
+                        <h2 class="titulo-home-page-info">Segurança</h2>
+                        <p>Nossa segurança é uma prioridade absoluta e permeia todas as nossas operações. Implementamos rigorosos protocolos de segurança para garantir um ambiente de trabalho seguro para todos os nossos funcionários.</p>
+                    </div>
+
+                    <img class="tmnh-imagem-colheita" src="../img/segurança-harvest.png" alt="Imagem de trator colhendo">
+
+                    
+                </div>
+
+                
+            </section>
+
+            <div class="alinhamento-linha"><img class="height-linha-folha" src="../img/linha-folha.png" alt=""></div>
+
+            <section class="section-separacao-collums">
+
+                <div class="container-produtividade">
+
+                    <img class="tmnh-imagem-colheita" src="../img/qualidade-harvest.jpg" alt="Imagem de trator colhendo">
+
+                    <div class="conteudo-produtividade">
+                        <h2 class="titulo-home-page-info">Qualidade</h2>
+                        <p>Implementamos rigorosos controles de qualidade em todas as etapas do processo de produção, desde a seleção das sementes até a colheita e distribuição. Utilizamos técnicas agrícolas avançadas e práticas sustentáveis para garantir que nossos produtos atendam aos mais altos padrões de qualidade.</p>
+                    </div>
+
+                </div>
+
+                
+            </section>
 
         </main>
 

@@ -2,10 +2,6 @@
     session_start();
     include 'conexao.php';
 
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-
     if (!isset($_SESSION['usuario']) || !isset($_SESSION['tipo'])) {
         header('Location: login.php');
         exit;
@@ -16,30 +12,23 @@
         $description = $_POST['description'] ?? null;
         $date = $_POST['date'] ?? null;
         $rating = $_POST['rating'] ?? null;
-
+    
         if ($title && $description && $date && $rating) {
             $stmt = $conexao->prepare("INSERT INTO feedbacks (title, description, date, rating) VALUES (?, ?, ?, ?)");
             if ($stmt === false) {
                 die("Erro ao preparar a consulta: " . $conexao->error);
             }
-
+    
             $stmt->bind_param("sssi", $title, $description, $date, $rating);
-
+    
             if ($stmt->execute()) {
-                echo "<script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>";
-                echo "<script>
-                    document.addEventListener('DOMContentLoaded', function(){
-                        Swal.fire({
-                            title: 'Feedback realizado com sucesso!',
-                            icon: 'success',
-                            confirmButtonText: 'OK'
-                        });
-                    });
-                </script>";
+                // Redireciona para a mesma página para evitar reenvio de formulário
+                header("Location: " . $_SERVER['PHP_SELF']);
+                exit;
             } else {
                 echo "Erro ao enviar feedback: " . $stmt->error;
             }
-
+    
             $stmt->close();
         } else {
             echo "Todos os campos são obrigatórios!";
@@ -52,7 +41,7 @@
     <head>
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Planos - Harvest Inc</title>
+        <title>Feedback - Harvest Inc</title>
         <link rel="stylesheet" href="../css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -174,15 +163,15 @@
                         <div class="separacao">
                             <label for="rating">Nota:</label>
                             <div class="stars">
-                                <input type="radio" name="rating" id="star1" value="1" checked>
+                                <input type="radio" name="rating" id="star1" value="1">
                                 <label for="star1">&#9733;</label>
-                                <input type="radio" name="rating" id="star2" value="2" checked>
+                                <input type="radio" name="rating" id="star2" value="2">
                                 <label for="star2">&#9733;</label>
-                                <input type="radio" name="rating" id="star3" value="3" checked>
+                                <input type="radio" name="rating" id="star3" value="3">
                                 <label for="star3">&#9733;</label>
-                                <input type="radio" name="rating" id="star4" value="4" checked>
+                                <input type="radio" name="rating" id="star4" value="4">
                                 <label for="star4">&#9733;</label>
-                                <input type="radio" name="rating" id="star5" value="5" checked>
+                                <input type="radio" name="rating" id="star5" value="5">
                                 <label for="star5">&#9733;</label>
                             </div>
                         </div>

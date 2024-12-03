@@ -29,6 +29,16 @@ a {
     border-radius: 10px;
 }
 
+.login-finalizado-navbar {
+    display: flex;
+    align-items: center;
+}
+
+.tamanho-icone-carrinho{
+    width: 45px;
+    height: 45px;
+}
+
 .navegacao-paginas {
     display: flex;
     gap: 30px;
@@ -247,8 +257,99 @@ a {
     margin-top: -200px;
 }
 
+.tmnh-imagem-colheita{
+    width: 400px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.section-separacao-2{
+    height: 95vh;
+}
+
+.section-separacao-collums{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-produtividade {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.botao-adquirir{
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid green;
+    border-radius: 0.6em;
+    color: green;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.botao-adquirir:hover{
+    background-color: green;
+    color: white;
+}
+
+.tmnh-imagem-colheita {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.conteudo-produtividade {
+    width: 50%;
+}
+
+.titulo-home-page-info {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.conteudo-produtividade p {
+    line-height: 1.6;
+    text-align: justify;
+    font-family: 'Inria', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.alinhamento-linha{
+    margin-top: -120px;
+    margin-bottom: -120px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-home-page-info{
+    font-family: 'Lalezar';
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+.height-linha-folha{
+    height: 500px;
+}
+
 .section-separacao-quem-somos{
-    height: 130vh;
+    height: 90vh;
 }
 
 .container-conteudos-principios{
@@ -947,7 +1048,7 @@ a {
 
 .cards-planos{
     margin-top: 30px;
-    height: 500px;
+    height: 600px;
     width: 25%;
     display: flex;
     justify-content: center;
@@ -955,6 +1056,18 @@ a {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.alinhamento-btn-adquirir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icon-certo {
+    display: flex!important;
+    justify-content: center!important;
 }
 
 .cards-planos h3{
@@ -982,6 +1095,10 @@ a {
 
 .lista-planos{
     list-style-type: none;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .conteudo-planos{
@@ -1203,4 +1320,8 @@ a {
     border-color: #f0a500;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.close-btn{
+    cursor: pointer;
 }

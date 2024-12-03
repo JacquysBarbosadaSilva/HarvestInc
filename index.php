@@ -62,33 +62,41 @@
                 
             </section>
 
-            <section class="section-separacao-quem-somos">
-                <div class="container-cards">
-                    <div class="retangulos">
-                        <div class="amarelo"></div>
-                        <div class="laranja"></div>
-                        <div class="marrom"></div>
-                    </div>
-                </div>
+            <button id="botao-scroll" class="botao-scroll" aria-label="Ir para a próxima seção">
+                <i class="fas fa-arrow-down"></i>
+            </button>
 
-                <div class="container-conteudos-pi">
-                    <div id="container-quem-somos">
-                        <h2 class="titulo-quem-somos">Quem Somos?</h2>
-                        <p class="descricao-conteudo">A Harvest Inc. é uma empresa de agropecuária focada na excelência, sustentabilidade e inovação. Nosso compromisso é otimizar a produção e preservar o meio ambiente.</p>
-                        <p class="descricao-conteudo">Produzimos alimentos de alta qualidade utilizando tecnologias avançadas e práticas agrícolas responsáveis.</p>
-                        <p class="descricao-conteudo">Investimos na capacitação de nossos colaboradores e promovemos a segurança em todas as operações.</p>
-                        <p class="descricao-conteudo">Na Harvest Inc., trabalhamos para um futuro agrícola produtivo e sustentável.</p>
+            <div id="proxima-secao">
+                <section class="section-separacao-quem-somos">
+                    <div class="container-cards">
+                        <div class="retangulos">
+                            <div class="amarelo"></div>
+                            <div class="laranja"></div>
+                            <div class="marrom"></div>
+                        </div>
                     </div>
-                    <div>
-                        <img class="tamanho-img" src="https://i.ibb.co/NxCX5Q3/img-horta.png" alt="">
-                    </div>
-                </div>
 
-            </section>
+                
+
+                    <div class="container-conteudos-pi">
+                        <div id="container-quem-somos">
+                            <h2 class="titulo-quem-somos">Quem Somos?</h2>
+                            <p class="descricao-conteudo">A Harvest Inc. é uma empresa de agropecuária focada na excelência, sustentabilidade e inovação. Nosso compromisso é otimizar a produção e preservar o meio ambiente.</p>
+                            <p class="descricao-conteudo">Produzimos alimentos de alta qualidade utilizando tecnologias avançadas e práticas agrícolas responsáveis.</p>
+                            <p class="descricao-conteudo">Investimos na capacitação de nossos colaboradores e promovemos a segurança em todas as operações.</p>
+                            <p class="descricao-conteudo">Na Harvest Inc., trabalhamos para um futuro agrícola produtivo e sustentável.</p>
+                        </div>
+                        <div>
+                            <img class="tamanho-img" src="https://i.ibb.co/NxCX5Q3/img-horta.png" alt="">
+                        </div>
+                    </div>
+
+                </section>
+            </div>
 
 
             
-            <section class="section-separacao">
+            <section class="section-separacao-2">
                 <div class="container-conteudos-principios">
                     <div>
                         <img class="img-broto" src="https://i.ibb.co/1ztKJj1/broto.png" alt="">
@@ -122,7 +130,59 @@
                 </div>
             </section>
 
+            <section class="section-separacao-collums">
+
+                <div class="container-produtividade">
+
+                    <img class="tmnh-imagem-colheita" src="img/trator-colheita.jpg" alt="Imagem de trator colhendo">
+
+                    <div class="conteudo-produtividade">
+                        <h2 class="titulo-home-page-info">Produtividade</h2>
+                        <p>Produtividade é uma prioridade fundamental e um reflexo do nosso compromisso com a excelência e a sustentabilidade. Investimos continuamente em tecnologias de ponta, como sistemas de irrigação automatizados e drones para monitoramento de culturas, o que nos permite otimizar o uso dos recursos e maximizar a produção.</p>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <div class="alinhamento-linha"><img class="height-linha-folha" src="img/linha-folha.png" alt=""></div>
+
+            <section class="section-separacao-collums">
+
+                <div class="container-produtividade">
+
+                    <div class="conteudo-produtividade">
+                        <h2 class="titulo-home-page-info">Segurança</h2>
+                        <p>Nossa segurança é uma prioridade absoluta e permeia todas as nossas operações. Implementamos rigorosos protocolos de segurança para garantir um ambiente de trabalho seguro para todos os nossos funcionários.</p>
+                    </div>
+
+                    <img class="tmnh-imagem-colheita" src="img/segurança-harvest.png" alt="Imagem de trator colhendo">
+
+                    
+                </div>
+
+                
+            </section>
+
+            <div class="alinhamento-linha"><img class="height-linha-folha" src="img/linha-folha.png" alt=""></div>
+
+            <section class="section-separacao-collums">
+
+                <div class="container-produtividade">
+
+                    <img class="tmnh-imagem-colheita" src="img/qualidade-harvest.jpg" alt="Imagem de trator colhendo">
+
+                    <div class="conteudo-produtividade">
+                        <h2 class="titulo-home-page-info">Qualidade</h2>
+                        <p>Implementamos rigorosos controles de qualidade em todas as etapas do processo de produção, desde a seleção das sementes até a colheita e distribuição. Utilizamos técnicas agrícolas avançadas e práticas sustentáveis para garantir que nossos produtos atendam aos mais altos padrões de qualidade.</p>
+                    </div>
+
+                </div>
+
+                
+            </section>
 
         </main>
+
     </body>
 </html>
